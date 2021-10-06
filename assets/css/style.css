@@ -695,6 +695,802 @@ visibility: hidden;
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================   The start of Performance Section  ========================== */
+.perform {
+  display: block;
+  padding-top: 70px;
+  position: relative;
+  animation-duration: 1s;
+  animation-delay: 0ms;
+  background-image: url(/assets/img/shape/3.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 345px;
+  position: relative;
+}
+.perform .container {
+  max-width: 1140px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.perform .container .perform_title {
+  text-align: center;
+  margin: -12px auto 60px;
+  max-width: 660px;
+  width: 100%;
+}
+.perform .container .perform_title h2 {
+  margin-bottom: 15px;
+  position: relative;
+  display: block;
+  font-size: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  color: #0e0129;
+  line-height: 1.2;
+  margin-top: 0;
+}
+.perform .container .perform_title p {
+  font-size: 15px;
+  margin: 0 auto;
+  color: #212121;
+}
+.perform .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.perform .container .row .perform_box {
+  flex: 0 0 auto;
+  max-width: calc(100% / 3);
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.perform .container .row .perform_box .box_content {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  background-color: #010414;
+  padding: 28px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+.perform .container .row .perform_box .box_content:hover {
+  background-color: #fff;
+  transform: translateY(-10px);
+}
+
+.perform .container .row .perform_box .box_content i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #d2044d, #ff5e68);
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+.perform .container .row .perform_box .box_content i:hover {
+  transform: rotateY(180deg);
+  transition-duration: 0.5s;
+}
+
+.perform .container .row .perform_box .box_content h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: barlow condensed, sans-serif;
+  text-align: center;
+}
+.perform .container .row .perform_box .box_content h3:hover {
+  color: #000;
+}
+
+.perform .container .row .perform_box .box_content p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+.perform .container .row .perform_box .box_content p:hover {
+  color: #000;
+}
+.perform .container .row .perform_box .box_content a {
+  line-height: 1;
+  color: #d80650;
+  font-weight: 500;
+  transition: all 0.5s;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+.perform .container .row .perform_box .box_content img {
+  /* width: 77px; */
+  width: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition-duration: 0.5s;
+}
+.perform .container .row .perform_box .box_content img:hover {
+  display: block;
+}
+
+/* ========= Start Responsive of Performance Section ======= */
+@media only screen and (max-width: 1200px) {
+  .perform .container {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .perform .container {
+    max-width: 800px;
+    width: 100%;
+  }
+  .perform .container .row .perform_box {
+    max-width: calc(100% / 2);
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .perform .container {
+    width: 100%;
+  }
+  .perform .container .row {
+    display: block;
+  }
+  .perform .container .row .perform_box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/* ========= End Responsive of Performance Section ======= */
+
+/* ===========================   The End of Performance Section  ==========================  */
+
+/* ===========================   The Start of Tranceform Section  ==========================  */
+
+.trancefor {
+  display: block;
+  padding-bottom: 100px;
+  position: relative;
+  padding-top: 70px;
+}
+.trancefor .container {
+  max-width: 1140px;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.trancefor .container .row_trancefor {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.trancefor .container .row_trancefor .trancefor_box {
+  flex: 0 0 auto;
+  max-width: 50%;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.trancefor .container .row_trancefor .trancefor_box .trancefor_img img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+.trancefor .container .row_trancefor .trancefor_box .trancefor_content {
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  background-color: #fff;
+  margin-left: -100px;
+  margin-top: 100px;
+  position: relative;
+  padding: 50px;
+}
+.trancefor .container .row_trancefor .trancefor_box .trancefor_content h2 {
+  color: #0e0129;
+  font-weight: 700;
+  font-family: barlow condensed, sans-serif;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.trancefor .container .row_trancefor .trancefor_box .trancefor_content p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar {
+  margin-bottom: 20px;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title {
+  color: #0e0129;
+  font-weight: 700;
+  font-family: barlow condensed, sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  font-size: 24px;
+}
+
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title
+  span {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-family: barlow condensed, sans-serif;
+  line-height: 1.2;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title
+  .skills_bar_progress_number {
+  width: 100%;
+  z-index: 10px;
+  font-size: 15px;
+  height: 24px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #fff;
+  margin-bottom: 0;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title
+  .skills_bar_progress_number
+  .progress_number_mark {
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom right, #ff5e68, #d2044d);
+  padding: 0px 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
+  bottom: 8px;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title
+  .skills_bar_progress_number
+  .progress_number_mark
+  .progress_percent {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_title
+  .skills_bar_progress_number
+  .progress_number_mark
+  .progress_arrow_down {
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 5px solid #d80650;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  color: #d80650;
+  margin-bottom: 0;
+}
+
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_bar_content {
+  height: 6px;
+  background-color: #ebeded;
+  border-radius: 50px;
+}
+.trancefor
+  .container
+  .row_trancefor
+  .trancefor_box
+  .trancefor_content
+  .trancefor_skills_bar
+  .skills_bar_content
+  .bar_progress {
+  height: 6px;
+  background-image: linear-gradient(to bottom right, #d2044d, #ff5e68);
+  border-radius: 50px;
+}
+
+.trancefor .trancefor_shape_one {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
+  max-width: 50%;
+}
+.trancefor .trancefor_shape_one img {
+  width: 100%;
+}
+.trancefor .trancefor_shape_two {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
+  right: 0;
+  top: 30%;
+  max-width: 50%;
+}
+.trancefor .trancefor_shape_two img {
+  width: 100%;
+}
+
+/* ========= Start Responsive of Tranceform Section ======= */
+
+@media only screen and (max-width: 1280px) {
+  .trancefor .container {
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_content {
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .trancefor .container {
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_img {
+    text-align: center;
+    width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .trancefor .container {
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_img {
+    text-align: center;
+    width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .trancefor .container {
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_img {
+    text-align: center;
+    width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .trancefor .container .row_trancefor .trancefor_box .trancefor_content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ========= End Responsive of Tranceform Section ======= */
+
+/* ===========================   The End of Tranceform Section  ==========================  */
+
+/* <!-- ===========================   The Start of Pricing Section  ========================== --> */
+.pricing {
+  display: block;
+  padding-bottom: 120px;
+}
+.pricing .container {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pricing .container .pricing_title {
+  max-width: 660px;
+  width: 100%;
+  margin: -12px auto 110px;
+  position: relative;
+  text-align: center;
+}
+.pricing .container .pricing_title h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  display: block;
+  position: relative;
+  text-transform: capitalize;
+  color: #0e0129;
+  font-weight: 700;
+  font-family: barlow condensed, sans-serif;
+  line-height: 1.2;
+}
+.pricing .container .pricing_title p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  text-align: center;
+}
+.pricing .container .row_pricing {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pricing .container .row_pricing .pricing_box {
+  flex: 0 0 auto;
+  max-width: calc(100% / 3);
+  width: 100%;
+  position: relative;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back::before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background-image: url(/assets/img/shape/5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  z-index: -10;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.pricing .container .row_pricing .pricing_box:hover {
+  transition-duration: 1000ms;
+  transform: translateY(-20px);
+  z-index: 1000;
+}
+
+.pricing .container .row_pricing .pricing_box .pricing_box_back.active {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 100;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_box_content {
+  background-color: #fef4f8;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_box_content
+  h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: barlow condensed, sans-serif;
+  color: #0e0129;
+  line-height: 1.2;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_box_content
+  h1 {
+  color: #d80650;
+  font-size: 40px;
+  margin: 0;
+  line-height: 1.2;
+  margin-top: 5px;
+  font-weight: 700;
+  font-family: barlow condensed, sans-serif;
+  text-transform: capitalize;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_box_content
+  h1
+  sub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9e9b9b;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back ul li {
+  font-weight: 500;
+  padding: 0 30px 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fef4f8;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back ul li i {
+  color: #d80650;
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  left: -2px;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back ul li span {
+  color: #9e9b9b;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back ul li span i {
+  color: #9e9b9b;
+}
+
+.pricing .container .row_pricing .pricing_box .pricing_box_back .pricing_btn {
+  /* left: 50%; */
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 15px 30px;
+  line-height: 1;
+  /* transition-duration: 1500ms; */
+  transition-timing-function: ease-in-out;
+  text-transform: capitalize;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #d80650;
+  margin-top: 15px;
+  margin-bottom: -8px;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_btn::before {
+  content: " ";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease;
+  background-color: #0e0129;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_btn::after {
+  content: " ";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  position: absolute;
+  transition: all 1s ease;
+  background-color: #0e0129;
+}
+.pricing .container .row_pricing .pricing_box .pricing_box_back .pricing_btn p {
+  display: inline-block;
+  z-index: 10;
+  position: relative;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_btn:hover::before {
+  width: 50%;
+  z-index: 1;
+}
+.pricing
+  .container
+  .row_pricing
+  .pricing_box
+  .pricing_box_back
+  .pricing_btn:hover::after {
+  width: 50%;
+  z-index: 1;
+}
+
+/* ========= Start Responsive of Pricing Section ======= */
+@media only screen and (max-width: 1000px) {
+  .pricing .container {
+    max-width: 800px;
+    width: 100%;
+  }
+  .pricing .container .row_pricing {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing .container .row_pricing .pricing_box {
+    max-width: calc(100% / 2);
+  }
+  .pricing .container .row_pricing .pricing_box .pricing_box_back.active {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .pricing .container {
+    max-width: 700px;
+    width: 100%;
+  }
+  .pricing .container .row_pricing {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing .container .row_pricing .pricing_box {
+    max-width: calc(100% / 2);
+  }
+  .pricing .container .row_pricing .pricing_box .pricing_box_back.active {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .pricing .container {
+    max-width: 500px;
+    width: 100%;
+  }
+  .pricing .container .row_pricing {
+    flex-wrap: wrap;
+  }
+  .pricing .container .row_pricing .pricing_box {
+    max-width: 100%;
+  }
+}
+
+/* ========= End Responsive of Pricing Section ======= */
+
+/* <!-- ===========================   The End of Pricing Section  ========================== --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=============start of  choose area=========*/
 .choose-area{
   position: relative;
