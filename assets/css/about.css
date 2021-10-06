@@ -580,15 +580,72 @@ background-color: #0e0129;
 
 /*======= responsive area =======*/
 @media(max-width:991px) {
-    
+    .operation_boxes {
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        margin-top: -173px;
+       }
+
+       .operation_text {
+           text-align: center;
+       }
+       
+       .operation_column {
+           margin-bottom: 63px;
+       }
     }
     
     @media(max-width:767px){
-       
-    }
+        .operation_boxes {
+            display: flex;
+            position: absolute;
+            flex-wrap: wrap;
+            margin-top: -1211px;
+           }
+    
+           .operation_text {
+               text-align: center;
+               margin-top: -1527px;
+               margin-left: 20px;
+           }
+           
+           .operation_column {
+               margin-bottom: 63px;
+           }
+    
+           .operation_img {
+               margin-left: 0px;
+           }
+    
+           .operation_image {
+            margin-top: 999px;
+           }
+        }
     
     @media(max-width:574px){
-       
-    }
+       .operation_boxes {
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        margin-top: -1211px;
+       }
 
-    /*======== approach to security ==========*/
+       .operation_text {
+           text-align: center;
+           margin-top: -1527px;
+           margin-left: 20px;
+       }
+       
+       .operation_column {
+           margin-bottom: 63px;
+       }
+
+       .operation_img {
+           margin-left: 0px;
+       }
+
+       .operation_image {
+        margin-top: 999px;
+       }
+    }
