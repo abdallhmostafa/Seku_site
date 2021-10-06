@@ -1148,6 +1148,10 @@ flex-direction: row;
 .item-d { width:220px; }
 .item-e { width:350px; } */
 
+.second_project {
+    margin-top: -41px;
+}
+
 .project {
     margin-left: 19px;
     margin-right: 11px;
