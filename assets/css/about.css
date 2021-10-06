@@ -496,6 +496,40 @@ background-color: #0e0129;
     font-size: 11px;
 }
 
+/*======= responsive area =======*/
+@media(max-width:991px) {
+    .intro_section {
+        width: 100%;
+    }
+    
+    .intro_text {
+        text-align: center;
+        margin-left: 357px;
+    }
+    }
+    
+    @media(max-width:767px){
+        .intro_section {
+            width: 100%;
+        }
+       
+        .intro_text {
+            text-align: center;
+            margin-left: 300px;
+        }
+        }
+    
+    @media(max-width:574px){
+      .intro_section {
+          width: 100%;
+      }
+      
+        .intro_text {
+          text-align: center;
+          margin-left: 199px;
+      }
+    }
+
 /*========= operation =========*/
 .operation_image {
     position: relative;
