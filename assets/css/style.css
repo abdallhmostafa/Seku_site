@@ -1230,6 +1230,10 @@ font-size: 14px;
     .project {
         margin-bottom: 35px;
     }
+ 
+  .second_project {
+            margin-top: 20px;
+        }
 
     }
     
@@ -1246,6 +1250,10 @@ font-size: 14px;
         .project {
             margin-bottom: 35px;
         }
+     
+      .second_project {
+            margin-top: 20px;
+        }
     }
     
     @media(max-width:574px){
@@ -1260,6 +1268,10 @@ font-size: 14px;
 
         .project {
             margin-bottom: 35px;
+        }
+     
+     .second_project {
+            margin-top: 20px;
         }
        
     }
