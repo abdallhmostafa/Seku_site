@@ -1006,10 +1006,9 @@ padding: 40px;
 @media(max-width:991px){
 .team-area{
   align-items: center;
-  height:100vh;
-  
-  
+ height:304vh; 
 }
+ 
 .team-area .t-container{
   width:50%;
 }
@@ -1036,10 +1035,9 @@ padding: 40px;
 @media(max-width:767px){
   .team-area{
   align-items: center;
-  height:100vh;
-  
-  
+  height:307vh;  
 }
+ 
 .team-area .t-container{
   width:50%;
 }
@@ -1067,10 +1065,9 @@ padding: 40px;
   
 .team-area{
   align-items: center;
-  height:100vh;
-  
-  
+height:310vh; 
 }
+ 
 .team-area .t-container{
   width:50%;
 }
@@ -1234,6 +1231,10 @@ font-size: 14px;
   .second_project {
             margin-top: 20px;
         }
+ 
+ .img_content {
+            margin-left: -428px;
+        }
 
     }
     
@@ -1254,6 +1255,10 @@ font-size: 14px;
       .second_project {
             margin-top: 20px;
         }
+     
+     .img_content {
+            margin-left: -428px;
+        }
     }
     
     @media(max-width:574px){
@@ -1272,6 +1277,10 @@ font-size: 14px;
      
      .second_project {
             margin-top: 20px;
+        }
+     
+     .img_content {
+            margin-left: -428px;
         }
        
     }
