@@ -685,6 +685,414 @@ background-color: #0e0129;
        }
     }
 
+
+
+
+
+    /* <!-- ======================================================== Start Section Complete area in About =================== --> */
+
+.comp_area_about{
+  overflow: hidden;
+  display: block;
+  padding: 35px 0;
+}
+.comp_area_about .container_comp{
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comp_area_about .container_comp .com_row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -45px;
+  margin-right: -25px;
+}
+.comp_area_about .container_comp .com_row .comp_box{
+  flex: 0 0 auto;
+  max-width: 50%;
+  width: 100%;
+  padding: 0 15px;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_img{
+  background-image: url(/assets/img/complete-img.jpg);
+  background-size: cover;
+  background-position: center center ;
+  display: block;
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+}
+/* .comp_area_about .container_comp .com_row .comp_box .com_img img{
+
+  width: 102%;
+} */
+
+.comp_area_about .container_comp .com_row .comp_box .com_content {
+  max-width: 700px;
+  margin-top: -12px;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content h2{
+    color: #0e0129;
+    font-weight: 700;
+    font-family: barlow condensed,sans-serif;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+ .comp_area_about .container_comp .com_row .comp_box .com_content p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row{
+display: flex;
+flex-wrap: wrap;
+margin-bottom: -20px;
+margin-left: -15px;
+
+ }
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box{
+  flex: 0 0 auto;
+ max-width: 50%;
+     padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box:hover{
+transform: translateY(-10px);
+transition-duration:  1s;
+}
+
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther::before{
+  content: " ";
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(to bottom right,#d2044d,#ff5e68);
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    position: absolute;
+    transition-duration: 500ms;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther:hover::before{
+  width: 100%;
+  transition-duration: 500ms;
+
+}
+
+
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther{
+  position: relative;
+  padding: 25px;
+  background-color: #fef4f8;
+
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther i {
+  background-image: linear-gradient(to bottom right,#d2044d,#ff5e68);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+  transition-duration: 0.5s;
+
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther i:hover{
+  transform: rotateY(360deg);
+  transition-duration: 0.5s;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther h3{
+  position: relative;
+      font-size: 22px;
+    margin-bottom: 9px;
+    transition-duration: 500ms;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: barlow condensed,sans-serif;
+    line-height: 1.2;
+}
+.comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box .comp_cont_auther p{
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+/* ========= Start Responsive of Complete area in About  ======= */
+
+
+
+
+@media only screen and (max-width: 1000px){
+  .comp_area_about .container_comp{
+    max-width: 800px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .comp_area_about .container_comp .com_row .comp_box{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .comp_area_about .container_comp .com_row{
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box{
+    max-width: 50%;
+    width: 100%;
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_img{
+    margin-bottom: 100% ;
+  }
+}
+@media only screen and (max-width: 800px){ 
+  .comp_area_about .container_comp{
+    max-width: 600px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .comp_area_about .container_comp .com_row .comp_box{
+    max-width: 100%;
+    text-align: center;
+  }
+  .comp_area_about .container_comp .com_row{
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box{
+    max-width: 50%;
+    width: 100%;
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_img{
+    margin-bottom: 100% ;
+  }
+}
+
+
+@media only screen and (max-width: 580px){
+  .comp_area_about .container_comp{
+    max-width: 500px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .comp_area_about .container_comp .com_row .comp_box{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .comp_area_about .container_comp .com_row{
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_content .comp_content_row .comp_cont_box{
+    max-width: 100%;
+    width: 100%;
+  }
+  .comp_area_about .container_comp .com_row .comp_box .com_img{
+    margin-bottom: 100% ;
+  }
+}
+
+
+
+/* ========= End Responsive of Complete area in About ======= */
+
+
+
+
+
+
+    /* <!-- =========================================================== End Section Complete area in About =================== --> */
+
+
+
+
+
+
+ /* <!--==================== Start Section Electronic area in About ===================  --> */
+
+
+.elec_about{
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #010c16;
+  margin: 80px 0;
+  overflow: hidden;
+}
+.elec_about .container_elec {
+  max-width: 1350px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.elec_about .container_elec .row_elec{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.elec_about .container_elec .row_elec .elec_box {
+ flex:  0 0 auto;
+  max-width: 50%;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-family: barlow condensed,sans-serif;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs {
+  border-bottom: 3px solid #2f3840;
+  margin-bottom: 25px;
+  list-style: none;
+
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li{
+  padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: 600;
+    position: relative;
+transition-duration: 1s;
+}
+
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li a:hover{
+color: #d80650;
+position: relative;
+transition-duration: 0.5s;
+/* transform: translateY(-5px); */
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li::before{
+   width: 0;
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #d80650;
+    bottom: -3px;
+    left: 0;
+transition-duration: 1s;
+
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li:hover::before{
+
+width: 101%;
+transition-duration: 0.5s;
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li a{
+      padding-left: 0;
+    color: #fff;
+}
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tab .elec_text{
+  padding-top: 10px;
+ }
+.elec_about .container_elec .row_elec .elec_box .elec_content .elec_tab .elec_text p{
+color: #fff;
+font-size: 15px;
+margin-bottom: 15px;
+}
+.elec_about .container_elec .row_elec .elec_box .elec_img {
+text-align: center;
+width: 100%;
+ }
+.elec_about .container_elec .row_elec .elec_box .elec_img img{
+    max-width: 100%;
+    width: 100%;
+  }
+
+
+/* ========= Start Responsive of  Electronic area in About  ======= */
+
+
+@media only screen and (max-width: 1000px){
+  .elec_about .container_elec .row_elec .elec_box{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .elec_about .container_elec .row_elec .elec_box .elec_img img{
+    max-width: 80%;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 780px){
+.elec_about .container_elec .row_elec .elec_box .elec_img img{
+    max-width: 80%;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .elec_about .container_elec .row_elec .elec_box{
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  .elec_about .container_elec .row_elec .elec_box .elec_content .elec_tabs li{
+    margin-right: 10px;
+  }
+  .elec_about .container_elec .row_elec .elec_box .elec_img img{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* ========= End Responsive of  Electronic area in About  ======= */
+
+
+
+ /* <!--==================== End Section Electronic area in About ======================================================  --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========= slider section ==========*/
     .row {
         display: flex;
